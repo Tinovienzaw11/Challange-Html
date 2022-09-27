@@ -1,0 +1,58 @@
+header{
+    background: #1a224b;
+    width: 86%;
+    margin: auto;
+    color: #fff;
+    line-height: 120px;
+    padding-left: 4%;
+}
+
+nav{
+    background: #1a224b;
+    line-height: 50px;
+    height: 50px;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+    
+nav ul{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    width: 60px;
+    float: left;
+    display: block;
+    text-align: center;
+}
+
+#container{
+    width: 90%;
+    margin: auto;
+    min-height: 100px;
+    overflow: hidden;
+    background: #fff;
+    color: #333;
+}
+.kiri{
+    width: 69%;
+    float: left;
+    margin:auto;
+    background: #fff;
+}
+.content{
+    border: 2px solid #1a224b;
+    margin-top: 1pc;
+    padding-bottom: 1pc;
+    padding-left: 2pc;
+    padding-right: 2pc;
+}
+.kanan{
+    width: 29%;
+    float: right;
+    margin:auto;
+    background: #fff;
