@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    font-family: 'palatino';
+    margin: 0;
+}
+
+body {
+    background-color: rgb(7, 108, 59);
+    justify-content: center;
+    align-items: center;
+}
+
+.task {
+    color: rgb(31, 24, 24);
+    text-align: center;
+    margin: 15% 20% 1%;
+}
+
+.task h1 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.task p {
+    margin-top: 10px;
+}
+
+.answer {
+    text-align: center;
+}
+
+.answer button {
+    position: relative;
+    width: 200px;
+    padding: 15px 0;
+    margin: 0 auto;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    overflow: hidden;
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+span {
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span {
+    width: 100%;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+footer p {
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
