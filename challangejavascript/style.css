@@ -1,17 +1,17 @@
 * {
     box-sizing: border-box;
-    font-family: 'palatino';
+    font-family: 'Comic Sans MS', Courier, monospace;
     margin: 0;
 }
 
 body {
-    background-color: rgb(7, 108, 59);
+    background-color: BLUE;
     justify-content: center;
     align-items: center;
 }
 
 .task {
-    color: rgb(31, 24, 24);
+    color: black;
     text-align: center;
     margin: 15% 20% 1%;
 }
@@ -37,12 +37,29 @@ body {
     text-align: center;
     margin: 20px 10px;
     font-weight: bold;
+    border: 2px solid black;
+    background: transparent;
+    color: RED;
     cursor: pointer;
     overflow: hidden;
     text-transform: uppercase;
     border-radius: 40px;
 }
 
+span {
+    background: black;
+    height: 100%;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span {
+    width: 100%;
+}
 
 footer {
     position: fixed;
